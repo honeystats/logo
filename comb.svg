@@ -112,6 +112,38 @@
          result="composite2"
          id="feComposite2690" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter13177">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood13167" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite1"
+         id="feComposite13169" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur13171" />
+      <feOffset
+         dx="4.55191e-15"
+         dy="0"
+         result="offset"
+         id="feOffset13173" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="atop"
+         result="composite2"
+         id="feComposite13175" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -120,18 +152,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="21.657015"
-     inkscape:cy="62.805155"
+     inkscape:zoom="11.2"
+     inkscape:cx="36.768106"
+     inkscape:cy="28.339487"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1267"
-     inkscape:window-height="1198"
-     inkscape:window-x="2711"
-     inkscape:window-y="143"
-     inkscape:window-maximized="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      units="px"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -146,7 +178,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -157,7 +189,7 @@
      transform="translate(-98.834873,-142.25213)">
     <path
        id="rect845-5"
-       style="fill:#e9ce46;fill-opacity:1;stroke:none;stroke-width:0.0675735;filter:url(#filter2692)"
+       style="fill:#be9800;fill-opacity:1;stroke:none;stroke-width:0.0675735;filter:url(#filter13177)"
        d="m 103.65945,155.4813 h 6.22593 l 4.82449,-6.61455 H 98.834873 Z m 0,-13.22917 h 6.22593 l 4.82449,6.61461 H 98.834873 Z" />
   </g>
 </svg>
